@@ -18,5 +18,5 @@ personagens.forEach((personagem) => {
 
     const idPersonagem = personagem.attributes.id.value;
 
-    imagemPersonagemGrande.src = ""
+
 })
