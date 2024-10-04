@@ -19,7 +19,10 @@ personagens.forEach((personagem) => {
         imagemPersonagemGrande.setAttribute("src", `src/images/${idPersonagem}-grande.png`)
     
         const nomePersonagem = document.getElementById('nome-personagem');
-        nomePersonagem.innerText = personagem.getAttribute('data-name')
+        nomePersonagem.innerText = personagem.getAttribute('data-name');
+
+        const descricaoPersonagem = document.getElementById('descricao-personagem');
+        descricaoPersonagem.innerText = personagem.getAttribute('data-description')
     
     })
 
