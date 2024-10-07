@@ -98,9 +98,9 @@ body::before {
     text-align: center;
 }
 
-@media (max-width: 780px){
+@media (max-width: 1000px){
     body {
-        padding: 10px;
+        padding: 15px;
     }
 
     .cabecalho .logo{
@@ -132,15 +132,22 @@ body::before {
         width: 80px;
     }
 
+    .personagem-selecionado {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .personagem-selecionado .personagem-grande {
         width: 350px;
         height: 350px;
+        
     }
 
     .info-personagem .descricao-personagem{
-        width: 350px;
+        width: 300px;
         text-align: center;
-        padding: 15;
+        padding: 15px;
     }
 
 }
